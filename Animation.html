@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>Animation</title>
+        <style>
+            @keyframes garden{
+               /* from{
+                    width:100px;
+                }
+                to{
+                    width:500px;
+                    background-color: blue;
+                }*/
+                0%{
+                    width: 100px;
+                }
+                25%{
+                    width:500px;
+                    background-image: url(sky.jpg);
+                }
+                50%{
+                    width:900px;
+                    height: 800px;
+                    background-color: chartreuse;
+                    background-image:url(sgopal.jpg);
+                }
+                65%{
+                    width:800px;
+                    height: 600px;
+                    border: 5px yellow;
+                    background-image:url(amrendr\ pr.jpg);
+                }
+                80%{
+                    height: 700px;
+                    width: 600px;
+                    background-color:yellow;
+                    background-image: url(city.png);
+                }
+                88%{
+                    height: 500px;
+                    width:500px;
+                    background-color: lightslategrey;
+                    background-image:url(city.png);
+                }
+                100%{
+                    width:800px;
+                    height: 900px;
+                    background-color: red;
+                }
+            }
+            div{
+                text-align:center;
+                font-size: 40px;
+                text-decoration: lawngreen;
+                height: 200px;
+                width:100px;
+                background-color: aqua;
+                animation-name: garden;
+                animation-duration: 6s;
+                animation-delay: 3s;
+               /* animation-fill-mode:backwards;
+                animation-iteration-count: infinite;
+                animation-play-state: running;
+                animation-timing-function:steps(5);*/
+                animation-direction:normal;
+                animation-timing-function:steps(9);
+                animation-iteration-count: infinite;
+                /*animation-play-state:running;*/
+            }
+        </style>
+
+    </head>
+    <body bgcolor="black">
+        <div>WELCOME!!!!!!!!! </div>
+    </body>
+</html>

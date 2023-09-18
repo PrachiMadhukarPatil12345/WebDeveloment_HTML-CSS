@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>FLEX</title>
+        <style>
+            div{
+                border:2px solid red;
+                height:300px;
+                display: flex;
+                flex-direction:row;
+                flex-wrap:wrap;
+                justify-content: right;
+                align-items:center;
+                align-content:center;
+                /*flex flow:row wrap:*/
+            }
+            section{
+                border:2px solid pink ;
+                background-color: aqua;
+                height:100px;
+                width:50px;
+                flex-grow:2;
+            }
+                #child1{
+                    flex-grow:1;
+                }
+                #child2{
+                    flex-grow:4;
+                }
+                #child3{
+                    flex-grow:3;
+                }
+                #child4{
+                    flex-grow:4;
+                }
+                #child5{
+                    flex-grow:5;
+                }
+                #child6{
+                    flex-grow:6;
+                    flex-shrink:1;
+                }
+              
+        </style>
+    </head>
+    <body>
+        <div>
+            <section id="child1">1</section>
+            <section id="child2">2</section>
+            <section id="child3">3</section>
+            <section id="child4">4</section>
+             <section id="child5">5</section>
+             <section id="child6">6</section>
+        </div>
+    </body>
+</html>

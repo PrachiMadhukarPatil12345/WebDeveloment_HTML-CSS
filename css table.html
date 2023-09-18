@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>CSS TABLE</title>
+        <style>
+            table,th,td{
+                border:5px solid hotpink;
+                border-collapse:collapse;
+            }
+            table{
+                width:50%;
+                margin:auto;
+                border-bottom:none;
+                border-radius:9px;
+            }
+            tr{
+                text-align:end;
+                background-color:lawngreen;
+            }
+            th{
+                background-color:green;
+            }
+
+            th,td{
+                padding: 10px;
+               border-bottom:none;
+            }
+           
+            tr:nth-child(odd){
+                background-color:darkturquoise ;
+            }
+            tr:nth-child(even){
+                background-color:blue;
+            }
+            tr:hover{
+                background-color:lime;
+            }
+            th:hover{
+                background-color:darkolivegreen;
+            }
+        </style>
+        <body>
+            <table>
+                <tr>
+                    <th>Day</th>
+                    <th>Month</th>
+                    <th>Year</th>
+                </tr>
+                <tr>
+                    <td>27</td>
+                    <td>08</td>
+                    <td>2021</td>
+                </tr>
+                <tr>
+                    <td>28</td>
+                    <td>08</td>
+                    <td>2021</td>  
+                </tr>
+                <tr>
+                    <td>29</td>
+                    <td>08</td>
+                    <td>2021</td>
+                </tr>
+                <tr>
+                    <td>30</td>
+                    <td>08</td>
+                    <td>2021</td>
+                </tr>
+                <tr>
+                    <td>31</td>
+                    <td>08</td>
+                    <td>2021</td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>09</td>
+                    <td>2021</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>09</td>
+                    <td>2021</td>
+                </tr>
+                
+            </table>
+             
+        </body>
+    </head>
+</html>
